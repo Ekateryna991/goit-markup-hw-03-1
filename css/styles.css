@@ -1,0 +1,376 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --primary-bg-color: #ffffff;
+  --primary-accent-color: #2196f3;
+}
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* белый #FFFFFF */
+/* акцент #2196F3 */
+
+.page {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid tomato;
+}
+
+/* цвет секции для разметки */
+.company {
+  background-color: brown;
+}
+.advantage {
+  background-color: chartreuse;
+}
+.aboutus {
+  background-color: darkblue;
+}
+.our-team {
+  background-color: deeppink;
+}
+.customers {
+  background-color: gold;
+}
+
+/*  */
+
+.advantage-item {
+  display: flex;
+}
+
+.aboutus-item {
+  display: flex;
+}
+
+.advantage-img {
+  margin-bottom: 55px;
+}
+
+. .list-item {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.list .product:not(:first-child) {
+  margin-left: 30px;
+}
+
+.team-person {
+  display: flex;
+}
+
+.person-item:not(:first-child) {
+  margin-left: 30px;
+}
+
+a {
+  text-decoration: unset;
+}
+
+.logo {
+  color: #000000;
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0.03em;
+
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.aktcent {
+  color: var(--primary-accent-color);
+}
+
+.list,
+.list-product {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.site-nav,
+.contact {
+  font-family: Roboto;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.link-nav {
+  color: var(--primary-text-color);
+
+  /* background-color: indianred; */
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.link-contact {
+  color: var(--secondary-text-color);
+}
+
+.contact .item + .item {
+  margin-left: 30px;
+}
+
+.site-nav.list {
+  margin-left: 85px;
+}
+
+.site-nav .link-nav:hover,
+.site-nav .link-nav:focus,
+.contact .link-contact:hover,
+.contact .link-contact:focus {
+  color: var(--primary-accent-color);
+}
+
+.site-nav .link-nav.current {
+  color: var(--primary-accent-color);
+}
+
+.site-nav {
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  margin-left: auto;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav .item:last-child {
+  margin-right: 0;
+}
+.site-nav .item + .item {
+  margin-left: 50px;
+}
+
+.company {
+  text-align: center;
+}
+
+.company-title {
+  /* color: #ffffff; */
+  margin-top: 0;
+  margin-bottom: 30px;
+
+  width: 696px;
+  font-family: Roboto;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  /* text-align: center; */
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.section-title {
+  color: var(--primary-text-color);
+  margin-top: 0;
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.section-subtitle {
+  color: var(--primary-text-color);
+
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* .advantage { 
+  margin-top: 0;
+  margin-bottom: 0px;
+}*/
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+/*Наша команда */
+
+.team-photo {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.team-title {
+  color: var(--primary-text-color);
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.button {
+  color: var(--primary-bg-color);
+  background-color: var(--primary-accent-color);
+  font-family: inherit;
+
+  border-radius: 4px;
+  min-width: 200px;
+  border: 1px solid transparent;
+
+  display: inline-block;
+  padding: 10px 32px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.list-item-aboutus {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-bg-color);
+  background: rgba(47, 48, 58, 0.8);
+}
+
+/* страница портфолио */
+
+.nav-portfolio {
+  display: flex;
+  align-items: center;
+}
+
+.nav-portfolio-item + .nav-portfolio-item {
+  margin-left: 8px;
+}
+
+.portfolio-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.works {
+  width: 370px;
+}
+
+.button-nav {
+  color: var(--primary-text-color);
+  background-color: #f5f4fa;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.list-product .button-nav:hover,
+.list-product .button-nav:focus {
+  color: var(--primary-bg-color);
+  background-color: var(--primary-accent-color);
+}
+
+.list-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.list-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--secondary-text-color);
+}
+
+.technokryak {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  color: var(--primary-bg-color);
+  background-color: rgba(33, 150, 243, 0.9);
+}
+
+/* Футер */
+
+footer {
+  background-color: #2f303a;
+  color: var(--primary-bg-color);
+}
+
+.address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+}
+
+.address-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.link-ikon {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.developed {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+
+  color: rgba(255, 255, 255, 0.4);
+}
