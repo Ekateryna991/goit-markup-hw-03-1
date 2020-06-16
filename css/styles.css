@@ -25,11 +25,12 @@
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid tomato;
+
+  /* outline: 2px solid tomato; */
 }
 
-/* цвет секции для разметки */
-.company {
+/* цвет секции для разметки (мне в помощь)*/
+/* .company { 
   background-color: brown;
 }
 .advantage {
@@ -43,9 +44,13 @@
 }
 .customers {
   background-color: gold;
-}
+}*/
 
 /*  */
+
+.advantage-img-item{
+  align: center;
+}
 
 .advantage-item {
   display: flex;
@@ -57,7 +62,7 @@
 
 .advantage-img {
   margin-bottom: 55px;
-  background-color: sienna;
+  
 }
 
 . .list-item {
@@ -298,6 +303,10 @@ a {
 
 /* страница портфолио */
 
+.main-portfolio {
+  padding-top: 93px;
+}
+
 .container h1 {
   margin: 0;
   height: 0;
@@ -306,11 +315,11 @@ a {
 
 .nav-portfolio {
   display: flex;
-  align-items: center;
+  justify-content: center;
   margin-bottom: 34px;
 }
 
-.nav-portfolio-item + .nav-portfolio-item {
+.nav-portfolio .item + .item {
   margin-left: 8px;
 }
 
@@ -329,8 +338,19 @@ a {
   display: block;
 }
 
-.works-content{
-  pading-left:24px;
+.works-content {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #ffffff;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+}
+
+.works-image {
+  display: block;
 }
 
 .works:nth-child(3n) {
@@ -350,6 +370,11 @@ a {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+
+  border-radius: 4px;
+  border: 1px solid transparent;
+  display: inline-block;
+  padding: 10px 32px;
 }
 
 .button-customers {
