@@ -48,10 +48,6 @@
 
 /*  */
 
-.advantage-img-item{
-  align: center;
-}
-
 .advantage-item {
   display: flex;
 }
@@ -61,8 +57,13 @@
 }
 
 .advantage-img {
+  width: 70px;
+  height: 70px;
   margin-bottom: 55px;
-  
+}
+
+.advantage-img-item:not(:first-child) {
+  margin-left: 30px;
 }
 
 . .list-item {
