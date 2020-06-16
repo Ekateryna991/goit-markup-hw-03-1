@@ -59,7 +59,7 @@
       <section class="advantage section">
         <div class="container">
           <ul class="list advantage-item">
-            <li>
+            <li class="advantage-img-item">
               <img class="advantage-img" src="./img/Vector1.svg" alt="" />
               <h3 class="section-subtitle">Внимание к деталям</h3>
               <p class="list-item advantage">
@@ -67,7 +67,7 @@
                 формированию позиции.
               </p>
             </li>
-            <li>
+            <li class="advantage-img-item">
               <img class="advantage-img" src="./img/Vector2.svg" alt="" />
               <h3 class="section-subtitle">Пунктуальность</h3>
               <p class="list-item advantage">
@@ -75,7 +75,7 @@
                 кадров влечет за собой.
               </p>
             </li>
-            <li>
+            <li class="advantage-img-item">
               <img class="advantage-img" src="./img/Vector.svg" alt="" />
               <h3 class="section-subtitle">Планирование</h3>
               <p class="list-item advantage">
@@ -83,7 +83,7 @@
                 степени обуславливает.
               </p>
             </li>
-            <li>
+            <li class="advantage-img-item">
               <img class="advantage-img" src="./img/Group.svg" alt="" />
               <h3 class="section-subtitle">Современные технологии</h3>
               <p class="list-item advantage">
@@ -195,7 +195,7 @@
           <h2 class="section-title">Постоянные клиенты</h2>
           <ul class="list customers-list">
             <li class="item">
-              <a href=""
+              <a class="button-customers" href=""
                 ><img
                   src="./img/logo1.svg"
                   alt="Логотип компании YA & CO"
@@ -238,46 +238,57 @@
 
     <!--Футер-->
     <footer>
-      <a href="" class="logo"><span class="aktcent">Web</span> Studio</a>
-      <address class="address">
-        г. Киев, пр-т Леси Украинки, 26 <br />
-        <a href="mailto:info@example.com" class="address-link"
-          >info@example.com</a
-        ><br />
-        <a href="tel:+380991111111" class="address-link">+38 099 111 11 11</a>
-      </address>
+      <div class="footer-content container">
+        <div class="footer-address">
+          <a href="" class="logo"><span class="aktcent">Web</span> Studio</a>
+          <address class="address">
+            г. Киев, пр-т Леси Украинки, 26 <br />
+            <a href="mailto:info@example.com" class="address-link"
+              >info@example.com</a
+            ><br />
+            <a href="tel:+380991111111" class="address-link"
+              >+38 099 111 11 11</a
+            >
+          </address>
+        </div>
 
-      <div>
-        <b>ПРИСОЕДИНЯЙТЕСЬ</b>
-        <ul class="list">
-          <li>
-            <a href="" aria-label="Ссылка на Instagram" class="link-ikon"
-              >Instagram</a
-            >
-          </li>
-          <li>
-            <a href="" aria-label="Ссылка на Twitter" class="button">Twitter</a>
-          </li>
-          <li>
-            <a href="" aria-label="Ссылка на Facebook" class="link-ikon"
-              >Facebook</a
-            >
-          </li>
-          <li>
-            <a href="" aria-label="Ссылка на LinkedIn" class="link-ikon"
-              >LinkedIn</a
-            >
-          </li>
-        </ul>
+        <div class="subscription">
+          <div class="action">
+            <b>ПРИСОЕДИНЯЙТЕСЬ</b>
+          </div>
+          <ul class="list">
+            <li>
+              <a href="" aria-label="Ссылка на Instagram" class="link-ikon"
+                >Instagram</a
+              >
+            </li>
+            <li>
+              <a href="" aria-label="Ссылка на Twitter" class="button"
+                >Twitter</a
+              >
+            </li>
+            <li>
+              <a href="" aria-label="Ссылка на Facebook" class="link-ikon"
+                >Facebook</a
+              >
+            </li>
+            <li>
+              <a href="" aria-label="Ссылка на LinkedIn" class="link-ikon"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="mailing">
+          <div class="action">
+            <b>ПОДПИШИТЕСЬ НА РАССЫЛКУ</b>
+          </div>
+
+          <a href="" class="button">Подписаться</a>
+        </div>
       </div>
 
-      <div>
-        <b>ПОДПИШИТЕСЬ НА РАССЫЛКУ</b>
-      </div>
-
-      <a href="" class="button">Подписаться</a>
-
-      <p class="developed">
+      <p class="developed container">
         2020 &#10072; Developed by GoIT Students
       </p>
     </footer>
